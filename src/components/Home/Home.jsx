@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className={stl.home}>
       <div className={stl.terminal}>
-        <h1>Memegod.ai</h1>
+        <h1>A.I.C.O.</h1>
         <span className={stl.alert}>
           <div className={stl.dot}></div> Trusted execution environment live
         </span>
