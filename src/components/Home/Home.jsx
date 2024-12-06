@@ -28,21 +28,13 @@ const Home = () => {
   return (
     <div className={stl.home}>
       <div className={stl.terminal}>
-        <pre
-          style={{
-            whiteSpace: "pre-wrap",
-            wordWrap: "break-word",
-            fontFamily: "monospace",
-            padding: "10px",
-            color: "#0f0",
-            height: "100%",
-            overflowY: "auto",
-          }}
-        >
-          {logs}
-        </pre>
+        <h1>Memegod.ai</h1>
+        <span className={stl.alert}>
+          <div className={stl.dot}></div> Trusted execution environment live
+        </span>
+        <pre className={stl.preStyle}>{logs}</pre>
       </div>
-      <img src="./Terminal.png" alt="Terminal" className={stl.terminalBg} />
+      {/* <img src="./Binary.gif" alt="Terminal" className={stl.terminalBg} /> */}
     </div>
   );
 };
