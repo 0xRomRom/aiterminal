@@ -8,7 +8,7 @@ const Home = () => {
     const fetchLogs = async () => {
       try {
         const response = await fetch(
-          "http://localhost:8888/.netlify/functions/scriptfetcher"
+          "https://memegodai.netlify.app/.netlify/functions/scriptfetcher"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch logs");
